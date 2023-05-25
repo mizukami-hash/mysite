@@ -15,43 +15,49 @@
 
   <body>
     <header id="header">
-      <ul>
+      <ul class="lead">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Works</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#feature">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
 
     <main>
       <div class="hero">
-        <div class="wrapper text-area">
+        <img src="/images/formain-2.png" alt="">
+        <!-- <div class="wrapper text-area">
           <p>ポートフォリオに使える</p>
           <h1>
-            JavaScriptミニアプリ<br />
+            JavaScriptミニアプリ<br/>
             10パターン
           </h1>
-        </div>
+        </div> -->
       </div>
 
       <div class="wrapper">
-        <div class="content about">
-          <h2 class="content-title">About</h2>
+        <div class="content content1">
+          <h2 class="content-title" id="about">About</h2>
           <div class="text">
-            <img src="https://placehold.jp/150x150.png" alt="顔写真" />
+            <img src="https://placehold.jp/150x150.png" alt="顔写真" / id="face">
+            <img src="/images/about-name.jpeg" alt="" id="name">
             <p>
-              自己紹介・概要など<br />テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              略歴<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              
             </p>
           </div>
         </div>
 
-        <div class="content skills">
-          <h2 class="content-title">Skills</h2>
+        <div class="content" >
+          <h2 class="content-title" id="skills">Skills</h2>
           <div class="text">
-            <img src="css-icon.png" alt="" />
-            <p>
-              アイコン＋説明<br />テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              <img src="/images/skill-icons/html.png" alt="" class="skill-icons">
+              <img src="/images/skill-icons/css.png" alt="" class="skill-icons">
+              <img src="/images/skill-icons/js.png" alt="" class="skill-icons">
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
           </div>
         </div>
@@ -174,10 +180,14 @@
       </div>
     </main>
 
+    <div id="page_top"><a href="#"></a></div>
+
     <footer>
       <div id="contact">
         <h3>Contact</h3>
-        <p>email<br />xxxxxx@xxxxxx</p>
+        <p>email:xxxxxx@xxxxxx</p>
+        <p>tell:xxxxxxxxxxxx</p>
+
       </div>
     </footer>
   </body>
